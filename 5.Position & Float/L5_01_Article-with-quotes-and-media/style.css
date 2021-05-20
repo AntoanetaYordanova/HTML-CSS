@@ -1,0 +1,44 @@
+.imgOne{
+    float: right;
+   
+}
+.imgTwo{
+    float: left;
+}
+img{
+    padding: 5px; 
+}
+.imgBox{
+    background-color: white;
+    padding: 3px;
+    border: black solid 0.2rem;
+    box-shadow: -1px 4px 26px -3px rgba(0,0,0,0.75);
+    margin: 15px;
+
+}
+
+.aside{
+    border-left: gray solid;
+    position: relative;
+    float: right;
+    width: 400px;
+    margin: 0;
+    margin-bottom: 15px;
+    height: 115px;
+    padding-left: 15px;
+
+}
+
+
+span{
+    position: absolute;
+    top: 85px;
+}
+
+hr{
+ border: solid black 1px;
+}
+
+body{
+   background-color: rgb(233, 230, 230);
+}
