@@ -1,7 +1,7 @@
-.odd{
+tr.odd{
     background: rgb(241, 241, 241);
 }
-td.odd tr{
+td tr.odd{
     background: rgb(241, 241, 241);
 }
 
