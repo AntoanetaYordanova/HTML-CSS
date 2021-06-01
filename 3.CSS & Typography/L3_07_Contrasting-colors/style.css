@@ -1,6 +1,12 @@
+body{
+    margin: 30px 80px;
+    color: rgb(240, 238, 238);
+}
+
 article{
     background-color: rgb(51, 102, 153);
     border-radius: 1rem;
+    padding: 10px;
 }
 html{
     font-family: Helvetica, sans-serif;

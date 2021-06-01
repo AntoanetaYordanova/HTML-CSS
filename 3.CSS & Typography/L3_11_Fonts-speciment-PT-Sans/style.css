@@ -1,5 +1,20 @@
 html{
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif ;
     font-size: 16px;
     line-height: 1.5;
+}
+
+body{
+    margin: 30px;
+}
+.squares{
+    list-style: square;
+}
+
+.discs{
+    list-style: disc;
+}
+
+.circles{
+    list-style: circle;
 }
