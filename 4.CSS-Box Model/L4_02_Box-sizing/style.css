@@ -1,4 +1,8 @@
 html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
     box-sizing: inherit;
 }
 
@@ -15,6 +19,5 @@ p{
     width: 100%;
     padding: 20px;
     border: 5px solid rgb(9, 54, 202);
-    box-sizing: border-box;
 }
 

@@ -1,0 +1,33 @@
+body{
+    background: #EEEEEE;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+li{
+    list-style: none;
+}
+
+p, ul, li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p{
+    max-width: 300px;
+    max-height: 450px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.3rem;
+}
+
+img{    
+    max-width: 100%;
+}
+ p{
+     padding: 5px;
+     margin: 5px;
+ }

@@ -1,0 +1,22 @@
+html{
+    font-family:  Helvetica, sans-serif;
+    margin: 50px;
+}
+
+.heading-level{
+    font-family: 'Times New Roman', serif;
+}
+
+li{
+    color: rgb(17, 150, 57);
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.title, ul, li, nav{
+    display: inline-block;
+}
+
+.title{
+    margin-right: 40px;
+}
