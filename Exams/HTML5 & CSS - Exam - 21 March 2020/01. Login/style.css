@@ -54,9 +54,10 @@ input{
 }
 
 form{
+    width: 265px;
     background: #fff;
     margin-left: 143px;
-    padding: 31px 0;
+    padding: 28px 0;
     border-radius: 5px;
     position: relative;
 }
@@ -77,22 +78,23 @@ i{
     left: 0;
 }
 
-.fa-lock{
-    top: 74px;
-    font-size: 12px;
+.fa-user{
+    top: 32px;
+    left: 21px;
+    font-size: 18px;
     color: #c7c7c7;
-    left: 10px;
 }
 
 
-.far{
-    top: 29px;
-    left: 19px;
-    font-size: 23px;
+.fa-lock{
+    top: 70px;
+    font-size: 15px;
     color: #c7c7c7;
+    left: 22px;
 }
 
 ::placeholder{
     text-align: center;
     margin-bottom: 10px;
+    color: #c5bfbf;
 }
