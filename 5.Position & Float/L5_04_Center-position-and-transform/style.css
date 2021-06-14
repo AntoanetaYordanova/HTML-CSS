@@ -1,0 +1,50 @@
+body {
+    background: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    width: 500px;
+    position: relative;
+    height: 200px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 1px 1px 28px 0px rgba(0,0,0,0.75);
+
+}
+
+button {
+    background: rgb(0, 153, 0);
+    color: #fff;
+    border-style: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+img {
+    border-radius: 4px 4px 0 0;
+    position: absolute;
+    top: -334px;
+    box-shadow: 1px -19px 55px -17px rgba(0,0,0,0.75);
+}
+
+.wrapper {
+    margin: 500px 790px;
+}
+
+.text {
+    padding: 5px 20px;
+    text-align: right;
+}
+
+.description, h3 {
+    text-align: left;
+    font-size: 0.7em;
+}
