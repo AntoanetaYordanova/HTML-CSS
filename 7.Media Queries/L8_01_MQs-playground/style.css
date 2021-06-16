@@ -1,0 +1,21 @@
+::after {
+    color: green;
+}
+
+@media all and (min-width: 600px) {
+    section:nth-child(1) span::after {
+        content: 'Viewport width is larger than 600px';
+    }
+}
+
+@media all and (min-height: 600px) {
+    section:nth-child(2) span::after{
+        content: 'Viewport height is larger than 600px';
+    }
+}
+
+@media all and (min-aspect-ratio: 8/5) {
+    section:nth-child(3) span::after {
+        content: 'Aspect Ratio is larger than 8/5';
+    }
+}

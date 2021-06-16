@@ -1,0 +1,83 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION */
+
+.nav-wrapper {
+    background: #234465;
+    padding: 0px 120px;
+}
+
+.logo-and-cta img {
+    max-width: 120px;
+    width: 100%;
+}
+
+.logo-and-cta, .navigation, .navigation ul, .navigation ul li, .logo-and-cta img, .logo-and-cta button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    color: #91A1B2;
+    margin: 10px;
+    font-size: 14   px;
+}
+
+i {
+    color: #91A1B2;
+    margin: 10px;
+}
+
+.logo-and-cta {
+    width: 68%;
+}
+
+.log-in {
+    margin: 10px;
+}
+
+.cta, .log-in {
+    background: #FFA000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 12px;
+    border-style: none;
+    margin-left: 8px;
+}
+
+
+/* SECOND NAV */
+
+.sub-nav li {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+
+.sub-nav li:nth-child(1) {
+    color: #CB8520;
+    margin: 0 20px 0 78px;   
+}
+
+.sub-nav li:nth-child(2) {
+    font-weight: 700;
+    color: #234465;
+}
+
+.sub-nav li:nth-child(2)::after {
+    content: '';
+    background: #234465;
+    height: 1px;
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    left: 0px;
+}
