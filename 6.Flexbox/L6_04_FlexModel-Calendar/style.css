@@ -1,0 +1,58 @@
+body {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+    
+}
+
+div {
+    max-width: 65vw;
+}
+
+section {
+    flex-wrap: wrap;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+
+ .workweek {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 32px 475px 60px 475px;
+}
+
+.day {
+    padding: 10px 35px 82px 35px;
+    width: 20%;
+    text-align: center;
+}
+
+.weekend-day {
+    width: 50%;
+    text-align: center;
+    padding: 10px 0 100px 0;
+}
+
+
+.note {
+    padding: 10px 20px 194px 20px;
+}

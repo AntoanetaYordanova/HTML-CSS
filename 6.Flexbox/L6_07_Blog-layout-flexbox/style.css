@@ -1,0 +1,71 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background: rgb(255, 255, 255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+header {
+    border-bottom: black solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.page {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.img-wrapper {
+    border: black 3px solid;
+    padding: 5px;
+}
+
+img {
+    height: 100%;
+}
+
+.img-1 {
+    float: right;
+    max-height: 270px;
+    margin-left: 20px;
+}
+
+.img-2 {
+    max-height: 133px;
+    float: left;
+    margin-right: 20px;
+}
+
+main {
+    width: 77%;
+}
+
+h6 {
+    font-size: 17px;
+}
+
+aside {
+    margin-left: 95px;
+}
