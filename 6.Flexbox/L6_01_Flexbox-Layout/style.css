@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background: #EEEEEE;
+    padding: 20px;
+}
+
+header, main, aside, footer {
+    box-shadow: 1px 1px 4px 1px rgba(107, 105, 105, 0.66);
+    border-radius: 3px;
+}
+
+header {
+    flex-grow: 1;
+    flex-basis: 100%;
+    flex-shrink: 1;
+    padding: 10px 10px 164px 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    flex-grow: 4;
+    flex-basis: 50%;
+    flex-shrink: 1;
+    margin-right: 40px;
+    padding: 10px 10px 520px 10px;
+    margin-bottom: 20px;
+}
+
+aside {
+    flex-grow: 1;
+    flex-basis: 25%;
+    flex-shrink: 1;
+    margin-bottom: 20px;
+    padding: 10px 10px 520px 10px;
+}
+
+footer {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px 10px 80px 10px;
+}

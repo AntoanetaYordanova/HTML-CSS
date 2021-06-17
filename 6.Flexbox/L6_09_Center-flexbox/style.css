@@ -1,0 +1,18 @@
+body {
+    background: #EEEEEE;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    box-shadow: 1px 1px 30px -12px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    padding: 15px;
+    background: #fff;
+    max-width: 20%;
+    margin-top: 200px;
+}
+
+h2 {
+    margin-top: 5px;
+}

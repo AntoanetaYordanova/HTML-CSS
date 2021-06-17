@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 40px auto;
+}
+
+header {
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+header h1 {
+    text-transform: uppercase;
+}

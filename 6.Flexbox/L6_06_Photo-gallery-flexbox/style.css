@@ -1,0 +1,30 @@
+body {
+    background: #EEEEEE;
+}
+
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+ul {
+    justify-content: space-between;
+}
+
+li {
+    max-width: 350px;
+    border: 6px solid black;
+    padding: 30px 20px;
+    margin-bottom: 50px;
+    background: #fff;
+    box-shadow: 1px 1px 30px -12px rgba(0,0,0,0.75) inset;
+}
+
+img {
+    object-fit: contain;
+}
