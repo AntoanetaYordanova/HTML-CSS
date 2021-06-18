@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: baseline;
+    font-size: 16px;
+    font-family:  Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+}
+
+header {
+    width: 100%;
+    border-bottom: black 2px solid;
+}
+
+main {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0px 30px 0;
+}
+
+h1 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+}
+
+main {
+    font-size: 1.2rem;
+    padding-bottom: 80px;
+    padding-top: 35px
+}
+
+article.footer {
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
+    font-weight: 200;
+
+}
