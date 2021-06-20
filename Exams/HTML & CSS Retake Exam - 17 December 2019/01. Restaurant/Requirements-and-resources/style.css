@@ -1,61 +1,57 @@
-html{
-    box-sizing: border-box;
-}
-
-*, 
-*::before,
-*::after{
-    box-sizing: inherit;
-}
-
-body{
+body {
     background: #FFD9B0;
-}
-
-
-.image{
-    background-image: url(form-img.jpg);
-    width: 905px;
-    height: 800px;
-    background-repeat: no-repeat;
-
-}
-
-
-.booking-section{
-    width: 440px;
-    margin-left: 55px;
-}
-
-.wrapper{
-    max-width: 80%;
-    margin: 20px auto;
     display: flex;
-    background: #000;;
+    justify-content: center;
+    font-family:Helvetica, sans-serif;
 }
 
-input{
-    width: 100%;
-    display: block;
-    justify-content: space-between;
+div.container {
+    width: 73%;
+    height: 80vh;
+    display: flex;
+    background: #000;
+    border-radius: 4px;
+}
+
+.img-container {
+    background-image: url("form-img.jpg");
+    object-fit: cover;
+    background-color: #cccccc;
+    height: 100%;
+    width: 132%;
+    background-repeat: no-repeat;
+    border-radius: 4px 0 0 4px;
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 98%;
     background: #000;
     border-style: none;
-    border-bottom: rgba(255, 255, 255, .5) 0.5px solid;
-    margin: 35px 0;
+    border-bottom: 1px solid white;
+    margin-bottom: 35px;
 }
 
-h4{
+h3 {
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 21px;
+    margin-bottom: 41px;
 }
 
-::placeholder{
-    display: inline-block;
-    padding-bottom: 10px, 0;
+form {
+    margin: 50px;
 }
 
-
-
-
-
+button {
+    padding: 12px 41px;
+    background: #EDB77D;
+    border-style: none;
+    color: white;
+    border-radius: 4px;
+}

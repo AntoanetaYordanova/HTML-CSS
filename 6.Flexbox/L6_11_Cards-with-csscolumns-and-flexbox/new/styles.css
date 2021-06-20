@@ -1,0 +1,50 @@
+body {
+    background: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+div.container {
+    max-width: 61%;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.cards-containter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    flex-basis: 28%;
+    margin: 0 25px 20px 36px;
+    background: #fff;
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.31);
+    border-radius: 5px;
+
+}
+
+
+.main {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+footer {
+    padding: 15px;
+    border-top: lightgray 1px solid;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    
+}

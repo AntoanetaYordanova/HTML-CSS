@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+span {
+    padding: 15px 0px 60px 0px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.week {
+    flex-basis: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.span-width-100 {
+   flex-basis: 100%;
+}
+
+.day {
+    flex-grow: 1;
+}
+
+.notes {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.note {
+    flex-grow: 1;
+    padding: 5px 10px 0 10px;
+}
