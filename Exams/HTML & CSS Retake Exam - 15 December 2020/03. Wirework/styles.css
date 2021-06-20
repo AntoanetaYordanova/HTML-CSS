@@ -1,0 +1,228 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+} 
+
+/* -----------HEADER--------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand h1 {
+    border-right: lightgray 1px solid;
+    text-transform: uppercase;
+    padding-right: 10px;
+    color: #2C383B;
+}
+
+
+.brand p {
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #2C383B;
+}
+
+.brand p span {
+    color: lightslategray;
+}
+
+.brand p, .brand h1 {
+    margin-top: 0;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+header nav li {
+    padding: 15px 20px;
+    background: #ECECEC;
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a{
+    color: black;
+}
+
+li.red-bg a{
+    background: #E24E2A;
+    color: white;
+    padding: 15px 20px;
+}
+ main section.banner {
+     width: 100vw;
+     height: 650px;
+ }
+
+ li.red-bg{
+    padding-left: 0;
+    padding-right: 0;
+ }
+
+/*--------------- MAIN ----------------- */
+
+
+/* BANNER */
+
+ .banner img {
+     width: 100%;
+     object-fit: cover;
+     height: 100%;
+ }
+
+/* DESCRIPTION SECTION */
+
+article.description {
+    margin: 0;
+    background: #E24E2A;
+    color: white;
+    text-align: center;
+    padding: 25px 338px;
+    line-height: 1.9;
+    font-size: 18px;
+}
+
+.description a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* SECTION ICON LINKS */
+
+section.section-icons-links {
+    background: #383838;
+    position: relative;
+    top: -16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.section-icons-links ul {
+    padding: 60px 10px 90px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-icons-links li {
+ flex-basis: 20%;
+ margin: 10px;
+}
+
+ .icon-wrapper {
+    color: white;
+    background: #E24E2A;
+    padding: 37px 23px 22px 22px;
+    margin-bottom: 10px;
+}
+
+
+
+i {
+    font-size: 36px;
+    
+}
+
+.section-icons-links h4 {
+    margin-top: 31px;
+    border-bottom: #666665 solid 1px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    color: white;
+}
+
+.icon-links-text {
+    color: #666665;
+}
+
+/* CTA SECTION */
+
+.cta-section { 
+    padding-bottom: 45px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cta-text p:nth-child(1) {
+    color: #555555;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.cta-text p:nth-child(2) {
+    color: #B3A9A2;
+    font-size: 21px;
+}
+
+.cta-button {
+    background: #1B9772;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+.cta-button-wrapper {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+/* LIST DESCRIPTION SECTION */
+
+.list-descriptions {
+    padding-bottom: 30px;
+    background: #383838;
+}
+
+.list-descriptions ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0;
+}
+
+.list-descriptions p {
+    color: #666665;
+}
+
+.list-descriptions li {
+    margin: 10px;
+}
+
+/* ---------FOOTER-------------- */
+
+footer {
+    background: #1B9772;
+    color: #5BB395;
+    padding: 62px 50px;
+    text-align: center;
+}
