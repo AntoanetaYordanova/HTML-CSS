@@ -1,0 +1,166 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url('images/map.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-search-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+button.login {
+    background: none;
+    border-style: none;
+}
+
+.login, i {
+    color: #B8B9B9;
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-title-section h1 {
+    color: white;
+}
+
+i {
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.header-title-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-title-section h1{
+    font-size: 95px;
+    margin-top: 309px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+button.cta-button {
+    background: #146594;
+    color: white;
+    border-radius: 4px;
+    padding: 11px 16px;
+    border-style: none;
+    font-size: 20px;
+}
+
+/* ---------MAIN----------- */
+
+main {
+    background: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 65px;
+    
+}
+
+.main-wrapper {
+    width: 80%;
+
+}
+
+.flex-sections-wrapper {
+    display: flex;
+}
+
+.main-left {
+    height: 800px;
+    background-image: url('images/packing.jpg');
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.main-right {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-up {
+    background-image: url('images/planning.jpg');
+    background-size: cover;
+    background-position-y: -50px;
+    flex-grow: 1;
+}
+
+
+.right-bottom {
+    background-image: url('images/budget.jpg');
+    background-position-y: -50px;
+    background-size: cover;
+    flex-grow: 1;
+    position: relative;
+}
+
+.main-title {
+    color: #63686B;
+    font-size: 32px;
+}
+
+.main-wrapper h4 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.right-bottom h4 {
+    position: absolute;
+    bottom: -35px;
+    left: 10px;
+}
+
+/* ------FOOTER----------- */
+
+footer {
+    background: #8C8C8C;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+    color: #CBCBCB;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.about li:nth-child(-n+3), .FAQ li:nth-child(-n+3), .copy li:nth-child(-n+2) {
+    padding-right: 10px;
+    border-right: 1px solid #CBCBCB;
+}
