@@ -1,0 +1,152 @@
+body {
+    box-sizing: border-box;
+    background: #EBEBEB;
+    font-family:  Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@media all and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media all and (min-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+div.page-wrapper {
+    width: 84%;
+}
+
+@media all and (max-width: 1024px) {
+    div.page-wrapper {
+        width: 94%;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    border-bottom: 1px solid black;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-bottom: 27px;
+    margin-top: 21px;
+}
+
+
+h1,h2 {
+    font-family:  'Times New Roman', Times, serif
+}
+
+.img-wrapper {
+    background: #fff;
+    border: 2px solid black;
+    padding: 5px;
+    width: fit-content;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    width: 10%;
+}
+
+@media all and (max-width: 1024px) {
+    .img-wrapper {
+        width: 13%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .img-wrapper {
+        width: 20%;
+    } 
+}
+
+.first-img-wrapper {
+    float: right;
+    margin-left: 20px;
+}
+
+.second-img-wrapper {
+    float: left;
+    margin-right: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.blockquote-wrapper {
+    display: flex;
+}
+
+
+
+.blockquote-wrapper p {
+    flex-basis: 55%;
+}
+
+blockquote {
+    color: gray;
+    border-left: 2px solid gray;
+    padding: 0 38px;
+    font-size: small;
+    font-style: italic;
+    flex-basis: 45%;
+}
+
+span {
+    position: relative;
+    top: 20px;
+    left: 93px;
+}
+
+@media all and (max-width: 480px) {
+    .blockquote-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .blockquote-wrapper p {
+        flex-basis: 100%;
+    }
+
+    blockquote {
+        flex-basis: 100%;
+    }
+
+    .img-wrapper {
+        width: 27%;
+    }
+}
