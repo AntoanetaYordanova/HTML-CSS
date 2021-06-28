@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+    .wrapper,
+    .special {
+      display: flex;
+    }
+   
+    .banner h2 {
+      width: 94%;
+      font-size: 1.6em;
+    }
+   
+    ul.actions li:last-child {
+      display: unset;
+    }
+   
+    .banner .button.special {
+      margin-left: 10px;
+      margin-right: 10px;
+      justify-content: center;
+    }
+   
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+   
+    .feature {
+      width: unset;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+   
+    .grid-form {
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+   
+    .grid-form .form-control.narrow {
+      width: unset;
+    }
+   
+    ul.actions li:last-child {
+      width: 100%;
+    }
+   
+    .wrapper.style2 input[type="submit"] {
+      width: 100%;
+    }
+  }

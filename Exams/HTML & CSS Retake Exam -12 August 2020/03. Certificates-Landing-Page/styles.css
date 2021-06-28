@@ -1,0 +1,246 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #495666;
+  font-family: Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background: linear-gradient(
+        0deg
+        , #eeeeeec7, #ffffff9f), url('images/hero-certificates.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  height: 500px;
+}
+
+article.logo {
+  width: 100px;
+}
+
+div.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  align-items: center;
+}
+
+
+
+ul.nav-menu {
+  display: flex;
+}
+
+.nav-menu li {
+  list-style: none;
+  padding-right: 7px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #495666;
+}
+
+.nav-menu li:nth-child(7) {
+  box-shadow: 0px 2px 18px -6px rgba(0, 0, 0, 1);
+  background: #44a9f9;
+  border-radius: 50%;
+  padding: 6px 8px;
+  position: relative;
+  top: -6px;
+}
+
+.AA a {
+  color: white;
+}
+
+.certificates-wrapper{
+display: flex;
+justify-content: center;
+}
+
+.cerificates{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.cerificates-imgs {
+    display: flex;
+    align-items: flex-end;
+}
+
+.certificates-content {
+    width: 50%;
+    background: #29394B;
+    color: #F2F3F4;
+    padding: 10px 28px;
+    border-radius: 7px;
+    line-height: 1.4;
+}
+
+.certificates-content h2, .certificates-content p {
+    margin-bottom:10px;
+}
+
+.sub-text {
+    margin-left: 134px;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+h2.diploma {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 84px 0 42px 0;
+    text-align: center;
+}
+
+.main-content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-wrapper > div {
+    width: 65%;
+}
+
+.main-content {
+    background: #F4F5F7;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.main-content-wrapper article p {
+ margin: 12px 30px 5px 30px;
+}
+
+
+
+.main-bottom-section {
+        margin-top: 120px;
+    box-shadow: 0px 2px 18px -6px rgba(0,0,0,1);
+    color: #fff;
+    margin-top: 120px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 48px;
+    width: 65%;
+    object-fit: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(
+0deg
+, rgba(0, 0, 0, 0.3), rgb(0 0 0 / 49%)), url(images/sign-up-prompt-background.jpg);
+}
+
+.main-content-wrapper .main-sub-text {
+    margin-top: 10px; 
+}
+
+.main-bottom-section-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-bottom-section h3, .main-bottom-section p {
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.btn-apply {
+    background: #fff;
+    color: #409FEB;
+    border-style: none;
+    position: relative;
+    margin-right: 15px;
+}
+
+.btn-cirriculum {
+    margin-left: 15px;
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    border: 1px solid white;
+    font-size: 12px;
+}
+
+.btn-apply::after {
+    content: '';
+    background: #fff;
+    height: 20px;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 87px;
+    left: 101px;
+}
+
+button {
+    padding: 7px 22px;
+    border-radius: 5px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-right: 10px;
+}
+
+footer  {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #687380;
+    padding-top: 34px;
+}
+
+.footer-list ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.logo-and-copy{
+    display: flex;
+    align-items: center;
+}
+
+.logo-and-copy p {
+    color: #D0D0D0;
+}
+
+.footer-list li {
+    margin-right: 7px;
+}
