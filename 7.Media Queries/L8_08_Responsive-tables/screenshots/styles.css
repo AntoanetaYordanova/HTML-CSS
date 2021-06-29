@@ -1,0 +1,52 @@
+body {
+    background: #EEEEEE;
+}
+
+table {
+    width: 100%;
+}
+
+.desktop thead tr{
+  background: #333333;  
+  color: white;
+  
+}
+
+.desktop th {
+    text-align: start;
+}
+
+   tr, td, table, th {
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+
+ .desktop tbody tr:nth-child(2) {
+    background: #fff;
+}
+
+.mobile-wrapper {
+    display: none;
+}
+
+@media all and (max-width: 450px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile-wrapper {
+        display: block;
+    }
+
+    td{
+       border: none; 
+    }
+
+    tr {
+        width: 100%;
+    }
+
+    tr:nth-child(4), tr:nth-child(5), tr:nth-child(6) {
+        background: #fff;
+    }
+}
