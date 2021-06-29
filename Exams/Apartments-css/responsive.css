@@ -1,0 +1,42 @@
+@media all and (max-width: 468px) {
+    .options {
+        flex-direction: column;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+   
+    .magazine article {
+        flex-direction: column;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    #about-blog {
+        width: 95% !important;
+    }
+
+    .blog-title span, .blog-title a, .magazine-title span, .magazine-title a {
+        display: none;
+    }
+
+
+    h4 {
+        font-size: ;
+    }
+
+    .options article {
+        width: 100% !important;
+        text-align: center !important;
+
+    }
+    .gallery article>img  {
+        width: 100% !important;
+    }
+    .magazine-info {
+        margin: 0;
+    }
+}

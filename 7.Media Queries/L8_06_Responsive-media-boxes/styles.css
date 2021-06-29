@@ -1,0 +1,54 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: #EEEEEE;
+}
+
+.card {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 200px;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    border-radius: 4px;
+}
+
+.img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+
+.content {
+    padding: 15px 20px;
+    border-radius: 0px 0px 3px 3px;
+}
+h2 {
+    margin-top: 0px;
+}
+
+button {
+    background: #019A00;
+    color: white;
+    border-style: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    position: relative;
+    right: -246px;
+}
+
+@media all and (max-width: 790px){
+    .card {
+        margin: 150px;
+    }
+}
+
+@media all and (max-width: 580px){
+    .card {
+        margin: 50px;
+    }
+}

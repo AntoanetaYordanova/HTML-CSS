@@ -1,0 +1,282 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding:0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6, .logo {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 80%;
+    justify-content: space-between;
+}
+
+
+nav, header, .menu-mobile, .menu-desktop, .need-a-website, .section-wrapper {
+    display: flex;
+}
+
+nav {
+    align-items: center;
+   
+}
+
+.menu-mobile {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+ nav li {
+    margin-right: 24px;
+}
+
+nav li:nth-child(5) {
+    margin-right: 0;
+}
+
+.logo {
+    color: #800080;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.logo-section p {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+.section-wrapper {
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.main-section {
+    width: 60%;
+}
+
+
+.need-a-website {
+    align-items: center;
+}
+
+.fa-globe-americas{
+    font-size: 82px;
+    margin-right: 130px;
+    margin-left: 68px;
+}
+
+.need-a-website-content h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.need-a-website button {
+    background: #fff;
+    border-style: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 12px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: -1px -1px 9px 0px rgba(0,0,0,0.38);
+}
+
+.our-team {
+    margin-top: 90px;
+    margin-bottom: 180px;
+    position: relative;
+}
+
+.our-team h2{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+}
+
+hr {
+    width: 55px;
+    border-style: none;
+    border: 1px solid black ;
+}
+
+
+.pictures-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.photo-flex-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card h3 {
+    margin-bottom: 0;
+}
+
+.card p:nth-child(odd) {
+    margin-top: 3px;
+}
+
+.card p:nth-child(even) {
+    margin-bottom: 1px;
+}
+
+.newsletter-sign-up {
+    background: #68347B;
+    color: #fff;
+    text-align: center;
+    padding: 33px 0 67px 0;
+}
+
+.newsletter-sign-up h2 {
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+
+.newsletter-sign-up form {
+    margin-top: 17px;
+}
+
+.newsletter-sign-up input:nth-child(2) {
+    background: #fff;
+    border-style: none;
+    padding: 5px 11px;
+    font-size: 11px;
+    font-weight: 600;
+
+}
+
+.newsletter-sign-up input:nth-child(1){
+    height: 17px;
+    width: 200px;
+
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 25px 9px -23px rgba(0,0,0,0.38) inset;
+    padding-top: 20px;
+}
+
+.footer-wrapper {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purple-spider, .sitemap, .contacts {
+    flex-basis: 30%;
+}
+
+.purple-spider .h3 {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.sitemap h4, .contacts h4 {
+    font-size: 19px;
+}
+
+
+
+.sitemap ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 45%;
+    padding: 0;
+}
+
+.contacts ul li {
+    display: flex;
+    align-items: center
+}
+
+.contacts i {
+    margin-right: 4px;
+}
+
+.contacts p {
+    margin: 5px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.purple-spider h3 {
+    margin-top: 0;
+}
+
+@media all and (max-width: 880px) {
+    .card {
+        width: 40%;
+    }
+    .main-section {
+        width: 85%;
+    }
+    .footer-wrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .purple-spider, .sitemap, .contacts {
+        flex-basis: 0;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: inline-block;
+    }
+
+    .menu-mobile h5{
+        margin: 0;
+    }
+    
+    i {
+        margin: 0;
+    }
+    
+}

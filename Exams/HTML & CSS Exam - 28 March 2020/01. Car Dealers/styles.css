@@ -1,0 +1,40 @@
+body {
+    font-family:  Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #717271;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-wrapper {
+    width: 64%;
+    display: flex;
+}
+
+.benefits article {
+    display: flex;
+    align-items: center;
+}
+
+.main-content{
+    margin-right: 59px;
+}
+
+.main-content p:nth-child(1) {
+    font-weight: bold;  
+}
+
+.color-black, h1 {
+    color: black;
+}

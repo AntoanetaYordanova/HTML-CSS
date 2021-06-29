@@ -1,0 +1,57 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Georgia, serif;
+    font-size: 65px;
+    margin: 10px 0;
+}
+
+.subtitle{
+    color: gray;
+}
+
+.conatiner{
+    max-width: 1300px;
+    margin: 20px auto;
+    padding-left: 350px;
+}
+
+.button-container,
+.text-container{
+    display: inline-block;
+    width: 35%;
+}
+
+h6{
+    font-size: 18px;
+    margin:10px 0;
+}
+
+
+.green-bg{
+    background: #CEFDE9;
+}
+
+.text{
+    color: gray;
+}
+
+hr{
+    margin-top: 30px;
+    margin-left: 200px;
+    border-style: none;
+    border-top: 1px solid #d2cbcb;
+    width: 400px;
+}
+
+.cta{
+    color: white;
+    background: #03A87C;
+    padding: 8px 40px;
+    border-style: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
