@@ -1,0 +1,19 @@
+@media all and (max-width: 600px) {
+    .benefits {
+        flex-direction: column;
+    }
+
+    .info-section {
+        flex-direction: column;
+
+    }
+
+    .info-section-item {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .info-section-item-title {
+        margin-bottom: 20px;
+    }
+}

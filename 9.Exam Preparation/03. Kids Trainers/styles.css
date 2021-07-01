@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ---- HEADER ---- */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    background: #41BEAD;
+    padding: 8px 0;
+}
+
+nav {
+    width: 88%;
+}
+
+.header-img {
+    width: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-menu, .nav{
+    display: flex;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-menu a {
+    color: white;
+    font-size: 14px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-menu li {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.header-content-wrapper {
+    display: flex;
+    justify-content: center;
+    background: #FFB402;
+}
+
+.header-content {
+    width: 38%;
+    padding: 50px;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-top: 0;
+}
+
+/* ---- MAIN ---- */
+
+.teachers-img, .circle-img-wrapper {
+    width: 140px;
+    margin-left: 13px;
+}
+
+.circle-img {
+    width: 100%;
+    border-radius: 50%;
+    border: 7px solid #41BEAD;
+}
+
+.main-teachers-wrapper {
+    justify-content: center;
+}
+
+.main-teachers-wrapper, .teachers, .teachers article {
+    display: flex;
+}
+
+.teachers {
+    width: 80%;
+    margin-top: 60px;
+}
+
+.teachers-content h3 {
+    color: #41BEAD;
+}
+
+.teachers-content p:nth-child(2) {
+    color: gray;
+}
+
+.teachers-content p:nth-child(3){
+    color: #565F66;
+}
+
+.teachers-img-wrapper {
+    margin-right: 20px;
+}
+
+.teachers-content {
+    width: 70%;
+}
+
+.different-img {
+    height: 141px;
+    object-fit: cover;
+}
+
+.teacher-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.teacher-imgs-section {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.teacher-imgs-section article {
+    text-align: center;
+}
+
+.teacher-imgs-section article h4 {
+    color: #41BEAD;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.teacher-imgs-section article p {
+    color: gray;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.cta-section-wrapper {
+    background: #66B9F8;
+    color: #fff;
+    border-top: 10px solid #92CDFB;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 50px;
+    padding-bottom: 161px;
+}
+
+.cta-section {
+    width: 44%;
+    margin-bottom: 0 auto;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 31px;
+}
+
+.cta-section p {
+    margin-bottom: 35px;
+}
+
+.cta-section input {
+    background: #66B9F8;
+    border-style: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 13px;
+    margin-right: 22px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+input.send {
+    background: #FF9100;
+    color: #fff;
+    border-radius: 65px;
+    border: none;
+    padding: 12px 21px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.95);
+}
+
+/* ---- FOOTER ---- */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: #565656;
+}
+
+footer article {
+    width: 10%;
+}
+
+footer article h4, footer article li {
+    color: #fff;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+.fab {
+    color: #fff;
+    font-size: 32px;
+    margin-right: 12px;
+}
+
+footer {
+    border-top: #919191 10px solid;
+}
