@@ -5,6 +5,11 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
 }
 
 /* NAVIGATION */
@@ -80,4 +85,188 @@ i {
     bottom: -15px;
     width: 100%;
     left: 0px;
+}
+
+.header-content {
+    background-color: rgb(65, 55, 55);
+    color: #fff;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 51px;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.header-content-wrapper {
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 11px;
+    text-align: center;
+}
+
+.header-content i {
+    color: white;
+    font-size: 30px;
+    left: 7px;
+    position: relative;
+}
+
+.header-icons p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cta-button {
+    margin-bottom: 45px;
+    margin-top: 12px;
+    background: #FFA000;
+    color: #fff;
+    border: none;
+    padding: 12px 78px;
+    border-radius: 37px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    position: relative;
+    background: #fff;
+}
+
+.wordpress-img-wrapper {
+    position: absolute;
+    opacity: 0.5;
+    transform: rotate(35deg);
+    top: -137px;
+    left: -128px;
+}
+
+.main-wrapper {
+    width: 75%;
+    margin: 30px auto;
+}
+ 
+.for-the-course, .aquired-skills {
+    position: relative;
+    z-index: 2;
+}
+
+.gray-bg {
+    background: #F2F2F2;
+    padding: 8px 59px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.for-the-course button {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.for-the-course p {
+    line-height: 31px;
+    text-align: start;
+}
+
+ h2 {
+    
+    margin-bottom: 0px;
+ю
+    
+}
+
+h2, .for-the-course p {
+    color: #234465;
+}
+
+.h2-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+hr {
+    width: 90%;
+    border: none;
+    border-top: #FFA000 solid 4px;
+    margin-top: 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.aquired-skills i{
+    color: #FFA000;
+    font-size: 30px;
+}
+
+.aquired-skills ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.aquired-skills li {
+  
+    font-size: 18px;
+    
+}
+
+.aquired-skills-ul-wrapper {
+    display: flex;
+}
+
+.aquired-skills-ul-wrapper ul{
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+.aquired-skills {
+    padding-bottom: 50px;
+}
+
+.themes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.themes li {
+    width: 49%;
+    background: #DADADA;
+    margin-bottom: 14px;
+    text-align: start;
+    padding: 8px;
+    border-left: #234465 4px solid;
+    font-weight: bold;
+}
+
+.themes span {
+    margin-right: 8px;
+}
+
+.themes {
+    padding-bottom: 35px;
+}
+
+.suitable-for {
+    background: #FFA000;
+    color: #fff;
+    text-align: start;
+    padding-bottom: 28px;
+}
+
+.suitable-for hr {
+    border-top: #fff 4px solid;
+}
+
+.suitable-for h2 {
+    color: #fff;
+    text-transform: uppercase;
 }
